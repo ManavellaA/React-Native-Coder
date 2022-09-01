@@ -6,8 +6,8 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <View>
-        <TextInput placeholder='Text puto'/>
+      <View style={styles.tInput}>
+        <TextInput placeholder='Text'/>
         <Button title='boton' onPress={() => console.log('boton')}/>
       </View>
     </View>
@@ -18,7 +18,11 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#ffaf',
-    alignItems:'center',
-    justifyContent:'center',
+  },
+  tInput: {
+    marginTop:'50',
+  },
+  button: {
+
   },
 });
