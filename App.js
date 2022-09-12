@@ -1,10 +1,10 @@
-import React, { useState} from 'react'
+import React, { useState } from 'react'
 import { StyleSheet, Text, View, TextInput, Button, FlatList, TouchableOpacity, Modal } from 'react-native';
+import { StyleSheet, Text, View, TextInput, Button } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#ffffff',
   },
   inputContainer: {
     marginTop: 50,
